@@ -1,4 +1,4 @@
-<?= $this->extend('layouts\template') ?>
+<?= $this->extend('layouts/template') ?>
 
 <?= $this->section('content') ?>
 <!-- Section Details of Me -->
