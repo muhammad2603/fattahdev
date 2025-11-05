@@ -1,0 +1,120 @@
+:root
+{
+    --color-disable: rgba(240, 249, 255, .95);
+}
+
+html
+{
+    scrollbar-width: thin;
+    scrollbar-color: rgb(52 211 153) transparent;
+}
+
+.introductions > p.my-role-text > span:first-child
+{
+    border-radius: 2px;
+}
+
+.card
+{
+    opacity: 0;
+    transform: translateX(-150px);
+    pointer-events: none;
+}
+
+.introductions .my-image-hero figure#myPhoto > img
+{
+    filter: drop-shadow(0px 0px 20px rgba(255,255,255,.15));
+    -webkit-filter: drop-shadow(0px 0px 20px rgba(255,255,255,.15));
+}
+
+.scroll-down-interactive span
+{
+    padding-inline: .6rem;
+    padding-block-end: .4rem;
+}
+
+.scroll-down-interactive span::before
+{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    transform: translateX(-50%);
+    width: calc((100% - .6rem) - 60px);
+    height: 3px;
+    border-radius: 25px;
+    background-color: #ff0000;
+}
+
+section.details
+{
+    transform: translateY(10%);
+    opacity: 0;
+}
+
+#links
+{
+    transform: translateX(-160%);
+    opacity: 0;
+}
+
+section > .left-side nav.flow-about-me div .horizontal-line
+{
+    width: 2rem;
+    height: 2px;
+    transition: width 200ms ease-out;
+}
+
+section > .left-side nav.flow-about-me div.active .horizontal-line
+{
+    width: 4rem;
+    height: 2px;
+}
+
+section > .left-side nav.flow-about-me div.active .horizontal-line
+{
+    background-color: var(--color-disable) !important;
+}
+
+section > .left-side nav.flow-about-me div.active span:last-child
+{
+    color: var(--color-disable) !important;
+}
+
+section > .left-side nav.flow-about-me div:not(.active):hover .horizontal-line
+{
+    width: 4rem;
+    background-color: var(--color-disable);
+}
+
+section > .left-side nav.flow-about-me div:not(.active):hover span:last-child
+{
+    color: var(--color-disable);
+}
+
+.my-experiences-details:hover .card.active:not(:hover),
+.my-projects-details:hover .card.active:not(:hover)
+{
+    opacity: .45 !important;
+}
+
+.card:hover
+{
+    box-shadow: -0.5px 2px 3px 1.5px rgba(0, 0, 0, .08);
+    transform: translate(2px, -2px) !important;
+}
+
+.card.active:hover span.arrow-icon i
+{
+    transform: translate(5px, -3px);
+}
+
+.my-projects-details .card .first-col > figure
+{
+    aspect-ratio: 16/9;
+}
+
+.my-projects-details .card .first-col > figure img
+{
+    box-shadow: -0.5px 2px 3px 1.5px rgba(0, 0, 0, .1);
+}
