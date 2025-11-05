@@ -17,7 +17,7 @@
 <body style="background-color: #0f172a;">
     <div class="main-container px-6 md:px-16">
         <div class="pointer-movement w-full h-full fixed top-0 left-0 duration-700 hidden xl:block" id="pointerMovement"></div>
-        <?= $this->include('layouts\landing-page') ?>
+        <?= $this->include('layouts/landing-page') ?>
         <?= $this->renderSection('content') ?>
     </div>
     <script src="/assets/js/main.js"></script>
