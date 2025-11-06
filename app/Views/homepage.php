@@ -2,7 +2,7 @@
 
 <?= $this->section('content') ?>
 <!-- Section Details of Me -->
-<section class="details w-full flex flex-col lg:flex-row text-justify">
+<section class="details w-full flex flex-col lg:flex-row text-justify sm:text-left">
     <!-- Left Side -->
     <section class="left-side lg:sticky md:top-0 lg:h-screen pt-16 md:pt-[6rem] flex-1 flex flex-col">
         <!-- Top of Left Side -->

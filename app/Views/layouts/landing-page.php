@@ -34,7 +34,7 @@
         <!-- Image Hero -->
         <div class="my-image-hero flex-1 hidden lg:flex justify-end">
             <figure class="sm:w-[450px] xl:w-[80%] aspect-square relative top-[-20px] mix-blend-lighten" id="myPhoto">
-                <img src="/assets/images/muhammad-fattahillah.png" alt="Muhammad Fattahillah. Mz" class="w-full h-full object-cover brightness-[0.9]">
+                <img src="/assets/images/muhammad-fattahillah.webp" alt="Muhammad Fattahillah. Mz" class="w-full h-full object-cover brightness-[0.9]">
             </figure>
         </div>
         <!-- Akhir Image Hero -->
