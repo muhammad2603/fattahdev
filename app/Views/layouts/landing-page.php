@@ -8,7 +8,7 @@
         </div>
         <!-- AkhirLogo -->
         <!-- Navigasi Menu -->
-        <nav class="flex justify-end items-center gap-3 sm:gap-6 md:gap-8 flex-1" id="navHomePage">
+        <nav class="hidden sm:flex justify-end items-center gap-3 sm:gap-6 md:gap-8 flex-1" id="navHomePage">
             <a href="javascript:void(0)" class="text-md text-slate-400 font-semibold duration-300 ease-out text-sm sm:text-lg md:text-lg 2xl:text-2xl <?= "hover:{$tailwind_class['white_color']}" ?>" role="button" data-navigate-to="about" tabindex="-1">About</a>
             <a href="javascript:void(0)" class="text-md text-slate-400 font-semibold duration-300 ease-out text-sm sm:text-lg md:text-lg 2xl:text-2xl <?= "hover:{$tailwind_class['white_color']}" ?>" role="button" data-navigate-to="experiences" tabindex="-1">Experiences</a>
             <a href="javascript:void(0)" class="text-md text-slate-400 font-semibold duration-300 ease-out text-sm sm:text-lg md:text-lg 2xl:text-2xl <?= "hover:{$tailwind_class['white_color']}" ?>" role="button" data-navigate-to="projects" tabindex="-1">Projects</a>
@@ -25,7 +25,7 @@
             <div class="main-job-description">
                 <p class="my-role-text relative mb-4 2xl:mb-6 <?= $tailwind_class['white_color'] ?> font-bold text-xl 2xl:text-3xl"><span class="bg-rose-500 py-0.5 px-2 tracking-wider">Full-Stack</span> <span id="developerText" class="inline-block relative z-[-1]">Developer</span></p>
             </div>
-            <p class="who-is-me-text w-[85%] sm:w-full inline-block sm:text-lg xl:text-lg <?= $tailwind_class['white_color'] ?>">
+            <p class="who-is-me-text w-[85%] sm:w-full text-justify sm:text-left inline-block sm:text-lg xl:text-lg <?= $tailwind_class['white_color'] ?>">
                 Saya seorang <b class="px-1 text-emerald-300 font-bold">Web Developer</b> yang berfokus pada pengembangan website <b class="px-1 font-bold">pemerintahan</b> dan <b class="px-1 font-bold">sistem layanan digital internal</b>. Selama lebih dari <b class="px-1 font-bold">5</b> tahun, saya telah mengerjakan berbagai proyek berbasis web menggunakan <b class="px-1 text-amber-400 font-bold">JavaScript</b> dan <b class="px-1 text-violet-400 font-bold">PHP</b>.
             </p>
             <p class="<?= $tailwind_class['white_color'] ?> mt-2.5 w-[85%] sm:w-3/4 sm:text-lg xl:text-lg">Website ini saya buat menggunakan: <span class="font-semibold" id="tools" data-typed="CodeIgniter,Tailwind CSS"></span></p>

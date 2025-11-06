@@ -2,7 +2,7 @@
 
 <?= $this->section('content') ?>
 <!-- Section Details of Me -->
-<section class="details w-full flex flex-col lg:flex-row">
+<section class="details w-full flex flex-col lg:flex-row text-justify">
     <!-- Left Side -->
     <section class="left-side lg:sticky md:top-0 lg:h-screen pt-16 md:pt-[6rem] flex-1 flex flex-col">
         <!-- Top of Left Side -->
@@ -93,7 +93,7 @@
                 <a href="<?= $p['link'] ?>" target="_blank">
                     <div class="card hover:bg-slate-400/5 mt-3 py-4 px-6 rounded-md flex flex-col 2xl:flex-row gap-2 sm:gap-10 lg:gap-4 cursor-pointer border-t-[.05px] border-t-transparent duration-150 hover:border-t-[.05px] hover:border-solid hover:border-t-slate-400/15 group">
                         <div class="first-col basis-128 shrink-0">
-                            <figure class="w-[380px] sm:w-[450px] lg:w-[320px] xl:w-[380px]">
+                            <figure class="w-[250px] sm:w-[450px] lg:w-[320px] xl:w-[380px]">
                                 <img
                                     src="/assets/images/<?= $p['image_url'] ?>"
                                     alt="<?= $p['title'] ?>"
